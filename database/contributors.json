@@ -1,0 +1,62 @@
+[
+  {
+    "nickname": "John Doe",
+    "team": "Support",
+    "contributions": 6,
+    "role": "spaceship manager"
+  },
+  {
+    "nickname": "Private Gomer Pyle",
+    "team": "Admins",
+    "contributions": 4,
+    "role": "spaceship manager"
+  },
+  {
+    "nickname": "John Kowalski",
+    "team": "LAC",
+    "contributions": 10,
+    "role": "spaceship manager"
+  },
+  {
+    "nickname": "Forrest Gump",
+    "team": "LAC",
+    "contributions": 10,
+    "role": "spaceship manager"
+  },
+  {
+    "nickname": "David Bowman",
+    "team": "Licstat",
+    "contributions": 5,
+    "role": "spaceship manager"
+  },
+  {
+    "nickname": "Neo",
+    "team": "LM-X",
+    "contributions": 1,
+    "role": "spaceship manager"
+  },
+  {
+    "nickname": "Han Solo",
+    "team": "Internal Systems",
+    "contributions": 4,
+    "role": "spaceship manager"
+  },
+  {
+    "nickname": "Indiana Jones",
+    "team": "LM-X",
+    "contributions": 3,
+    "role": "spaceship manager"
+  },
+  {
+    "nickname": "Edward Scissorhands",
+    "team": "Admins",
+    "contributions": 3,
+    "role": "spaceship manager"
+  },
+  {
+    "nickname": "Tyler Durden",
+    "team": "Licstat",
+    "contributions": 7,
+    "role": "spaceship manager"
+  }
+]

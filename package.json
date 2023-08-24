@@ -1,0 +1,21 @@
+{
+  "name": "github-api-angularj-1.6.5-master",
+  "version": "1.0.0",
+  "description": "This project was created with [Angularjs](https://angularjs.org) version 1.6.5.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@hapi/hapi": "^21.3.2",
+    "@hapi/inert": "^7.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
+
+
