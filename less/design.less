@@ -11,22 +11,22 @@ html {
 	color: #fff;
 }
 ::-moz-selection { 
-	background: rgb(51, 51, 51);
+	background: rgb(51, 51, 51); 
 	color: #fff;
 }
 
 /* Header styles */
 header {
-	.navbar-wrap {
+	.navbar-wrap { 
 		display: flex;
 		align-items: center;
 		    padding: 20px 0;
 	}
-	.navbar {
-		border: none;
+	.navbar { 
+		border: none; 
 		margin: 0;
 		border-radius: 0;
-		background-color: #fff;
+		background-color: #fff; 
 		.navbar-header {
 			float: none;
 			width: 100px;
@@ -36,7 +36,7 @@ header {
 			}
 		}
 		#navbar {
-			.navbar-nav {
+			.navbar-nav { 
 				li {
 					a {
 						padding-top: 20px;
@@ -85,7 +85,8 @@ header {
 		}
 	}
 	.main_section {
-		background: url(../img/bg.jpeg),linear-gradient(to bottom, #ADB2B6, #ABAEB3);
+		background-image: linear-gradient(109.6deg, rgba(156, 252, 248, 0.2), rgba(110, 123, 251, 0.7)), url(../img/bg.jpeg);
+
 		background-size: cover;
 		background-position: center center;
 		height: 100vh;
@@ -198,12 +199,22 @@ footer {
 @media only screen and (max-width: 768px) { 
   body {
     header {
+    	.navbar-wrap {
+			    padding: 20px 0;
+			    justify-content: center;
+			    width: 100%;
+			    display: block;
+    	}
     	.navbar {
     		.navbar-header {
-	    		margin: 0 auto;
-			    padding: 0;
-			    width: 222px;
+					display:block;
+			    width: 100%;
 			    text-align: center;
+			    margin-right: 0;
+			    a {
+			    	margin: 0 auto;
+			    	width: 200px;
+			    }
 			    img {
 			    	display: inline;
 			    }
@@ -240,6 +251,10 @@ footer {
     	}
     }
     #main_content {
+    	.jumbotron {
+				margin: 0;
+				padding: 0;
+			}
 			.main_section, .contr_section, .repo_section  {
 				h1 {
 					font-size: 40px;
