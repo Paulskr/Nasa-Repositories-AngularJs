@@ -450,77 +450,76 @@ footer .main_footer {
     -ms-transform: translate(-5000px, 0px);
     transform: translate(-5000px, 0px);
   }
-  /* line 254, design.less */
-  body #main_content .jumbotron {
-    margin: 0;
-    padding: 0;
-  }
-  /* line 259, design.less */
+  /* line 255, design.less */
   body #main_content .main_section h1,
   body #main_content .contr_section h1,
   body #main_content .repo_section h1 {
     font-size: 40px;
   }
-  /* line 265, design.less */
+  /* line 259, design.less */
+  body #main_content #main_content .main_section .jumbotron {
+    background: none;
+  }
+  /* line 264, design.less */
   body #main_content .repo_section .page-header h2 {
     font-size: 22px;
   }
-  /* line 271, design.less */
+  /* line 270, design.less */
   body #main_content .repo_section .list-group .list-group-item .col-md-9 {
     margin-bottom: 20px;
   }
 }
 /* Attrs */
 /* Other GLOBALS */
-/* line 298, design.less */
+/* line 297, design.less */
 img {
   display: block;
   max-width: 100%;
   height: auto;
 }
-/* line 304, design.less */
+/* line 303, design.less */
 .bg-meta {
   font-size: 12px;
   display: inline-block;
   margin-right: 10px;
 }
-/* line 308, design.less */
+/* line 307, design.less */
 .bg-meta .fa-circle {
   color: #f35f32;
 }
-/* line 315, design.less */
+/* line 314, design.less */
 form .form-group .form-control {
   height: 45px;
 }
-/* line 321, design.less */
+/* line 320, design.less */
 .tac {
   text-align: center;
 }
-/* line 322, design.less */
+/* line 321, design.less */
 .tar {
   text-align: right;
 }
-/* line 323, design.less */
+/* line 322, design.less */
 .tal {
   text-align: left;
 }
-/* line 324, design.less */
+/* line 323, design.less */
 .pr {
   position: relative;
 }
-/* line 325, design.less */
+/* line 324, design.less */
 .right {
   float: right;
 }
-/* line 326, design.less */
+/* line 325, design.less */
 .left {
   float: left;
 }
-/* line 327, design.less */
+/* line 326, design.less */
 .clear {
   clear: both;
 }
-/* line 328, design.less */
+/* line 327, design.less */
 .clearfix:after {
   content: '';
   display: block;
